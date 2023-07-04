@@ -1,6 +1,7 @@
 package br.com.bytebank.modelo;
 
 public class Conta {
+
     public double saldo;
     int agencia;
     int numero;
