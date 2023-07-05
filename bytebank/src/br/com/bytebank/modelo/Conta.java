@@ -1,16 +1,13 @@
 package br.com.bytebank.modelo;
 
 public class Conta {
-
     public double saldo;
     int agencia;
     int numero;
     public String titular;
-
     public void deposita(double valor) {
         this.saldo += valor;
     }
-
     public boolean saca(double valor) {
         if(this.saldo >= valor) {
             this.saldo -= valor;
@@ -19,7 +16,6 @@ public class Conta {
             return false;
         }
     }
-
     public boolean transfere(double valor, Conta destino) {
         if(this.saldo >= valor) {
             this.saldo -= valor;
@@ -27,7 +23,5 @@ public class Conta {
             return true;
         }
         return false;
-
     }
-
 }
