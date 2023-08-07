@@ -3,6 +3,7 @@ package br.com.bytebank.test;
 import br.com.bytebank.modelo.Conta;
 
 public class TestaMetodo {
+
     public static void main(String[] args) {
         Conta contaDoPaulo = new Conta();
         contaDoPaulo.saldo = 100;
