@@ -27,7 +27,7 @@ public class TestaMetodo {
 
         System.out.println(contaDaSabrina.saldo);
 
-        contaDaSabrina.titular = "paulo silveira";
+        contaDaSabrina.titular = "Sabrina Galvan";
         System.out.println(contaDaSabrina.titular);
 
     }
