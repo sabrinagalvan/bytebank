@@ -18,7 +18,7 @@ public class TestaMetodo {
         Conta contaDoTiago = new Conta();
         contaDoTiago.deposita(1000);
         if(contaDoTiago.transfere(3000, contaDaSabrina)) {
-            System.out.println("transferencia com sucesso");
+            System.out.println("Transferencia com sucesso");
         } else {
             System.out.println("faltou dinheiro");
         }
