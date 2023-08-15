@@ -20,7 +20,7 @@ public class TestaMetodo {
         if(contaDoTiago.transfere(3000, contaDaSabrina)) {
             System.out.println("Transferencia com sucesso");
         } else {
-            System.out.println("faltou dinheiro");
+            System.out.println("Faltou dinheiro");
         }
 
         System.out.println(contaDoTiago.saldo);
