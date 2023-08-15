@@ -15,15 +15,15 @@ public class TestaMetodo {
         System.out.println(contaDaSabrina.saldo);
         System.out.println(conseguiuRetirar);
 
-        Conta contaDaMarcela = new Conta();
-        contaDaMarcela.deposita(1000);
-        if(contaDaMarcela.transfere(3000, contaDaSabrina)) {
+        Conta contaDoTiago = new Conta();
+        contaDoTiago.deposita(1000);
+        if(contaDoTiago.transfere(3000, contaDaSabrina)) {
             System.out.println("transferencia com sucesso");
         } else {
             System.out.println("faltou dinheiro");
         }
 
-        System.out.println(contaDaMarcela.saldo);
+        System.out.println(contaDoTiago.saldo);
 
         System.out.println(contaDaSabrina.saldo);
 
