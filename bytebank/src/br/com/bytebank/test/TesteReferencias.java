@@ -3,6 +3,7 @@ package br.com.bytebank.test;
 import br.com.bytebank.modelo.Conta;
 
 public class TesteReferencias {
+
     public static void main(String[] args) {
         Conta primeiraConta = new Conta();
         primeiraConta.saldo = 300;
