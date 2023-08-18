@@ -15,6 +15,7 @@ public class TesteReferencias {
 
         segundaConta.saldo += 100;
         System.out.println("Saldo da segunda conta: " + segundaConta.saldo);
+
         System.out.println(primeiraConta.saldo);
         if(primeiraConta == segundaConta) {
             System.out.println("São a mesmissima conta.");
