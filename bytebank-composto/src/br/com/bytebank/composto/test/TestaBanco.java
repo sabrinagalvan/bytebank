@@ -4,6 +4,7 @@ import br.com.bytebank.composto.modelo.Cliente;
 import br.com.bytebank.composto.modelo.Conta;
 
 public class TestaBanco {
+
     public static void main(String[] arg) {
         Cliente paulo = new Cliente();
         paulo.nome = "Paulo Silveira";
