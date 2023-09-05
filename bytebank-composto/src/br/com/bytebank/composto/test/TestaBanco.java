@@ -6,6 +6,7 @@ import br.com.bytebank.composto.modelo.Conta;
 public class TestaBanco {
 
     public static void main(String[] arg) {
+
         Cliente paulo = new Cliente();
         paulo.nome = "Paulo Silveira";
         paulo.cpf = "222.222.222-22";
