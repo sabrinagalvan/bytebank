@@ -8,7 +8,7 @@ public class TestaBanco {
     public static void main(String[] arg) {
 
         Cliente paulo = new Cliente();
-        paulo.nome = "Paulo Silveira";
+        paulo.nome = "Sabrina Galvan";
         paulo.cpf = "222.222.222-22";
         paulo.profissao = "programador";
 
