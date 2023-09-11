@@ -10,7 +10,7 @@ public class TestaBanco {
         Cliente sabrina = new Cliente();
         sabrina.nome = "Sabrina Galvan";
         sabrina.cpf = "222.222.222-22";
-        paulo.profissao = "programador";
+        sabrina.profissao = "programador";
 
         Conta contaDaSabrina = new Conta();
         contaDaSabrina.deposita(100);
