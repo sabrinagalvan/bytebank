@@ -18,7 +18,7 @@ public class TestaBanco {
         //associa o cliente paulo a conta contaDoPaulo
         contaDaSabrina.titular = paulo;
         System.out.println(contaDaSabrina.titular.nome);
-        System.out.println(contaDopaulo.titular);
+        System.out.println(contaDaSabrina.titular);
         System.out.println(paulo);
     }
 }
