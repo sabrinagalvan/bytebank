@@ -13,7 +13,7 @@ public class TestaBanco {
         paulo.profissao = "programador";
 
         Conta contaDaSabrina = new Conta();
-        contaDopaulo.deposita(100);
+        contaDaSabrina.deposita(100);
 
         //associa o cliente paulo a conta contaDoPaulo
         contaDopaulo.titular = paulo;
