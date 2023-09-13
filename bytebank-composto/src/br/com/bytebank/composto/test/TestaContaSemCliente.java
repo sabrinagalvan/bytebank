@@ -4,6 +4,7 @@ import br.com.bytebank.composto.modelo.Cliente;
 import br.com.bytebank.composto.modelo.Conta;
 
 public class TestaContaSemCliente {
+
     public static void main(String[] args) {
         Conta contaDaBibi  = new Conta();
         System.out.println(contaDaBibi.getSaldo());
