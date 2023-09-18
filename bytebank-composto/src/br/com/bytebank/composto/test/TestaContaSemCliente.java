@@ -9,6 +9,7 @@ public class TestaContaSemCliente {
 
         Conta contaDaBibi  = new Conta();
         System.out.println(contaDaBibi.getSaldo());
+
         contaDaBibi.titular = new Cliente();
         System.out.println(contaDaBibi.titular);
         contaDaBibi.titular.nome = "Bibi";
