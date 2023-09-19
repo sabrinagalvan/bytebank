@@ -12,6 +12,7 @@ public class TestaContaSemCliente {
 
         contaDaBibi.titular = new Cliente();
         System.out.println(contaDaBibi.titular);
+
         contaDaBibi.titular.nome = "Bibi";
         System.out.println(contaDaBibi.titular.nome);
     }
