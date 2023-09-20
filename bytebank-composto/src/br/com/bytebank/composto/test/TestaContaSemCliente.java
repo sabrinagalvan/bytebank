@@ -15,5 +15,6 @@ public class TestaContaSemCliente {
 
         contaDaBibi.titular.nome = "Bibi";
         System.out.println(contaDaBibi.titular.nome);
+
     }
 }
