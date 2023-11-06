@@ -29,4 +29,5 @@ public class Cliente {
     public void setProfissao(String profissao) {
         this.profissao = profissao;
     }
+
 }
