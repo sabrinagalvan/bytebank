@@ -1,6 +1,7 @@
 package br.com.bytebank.encapsulado.modelo;
 
 public class Conta {
+
     private double saldo;
     private int agencia;
     private int numero;
