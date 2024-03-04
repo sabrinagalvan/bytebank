@@ -23,5 +23,6 @@ public class TestaGetESet {
         System.out.println(titularDaConta);
         System.out.println(paulo);
         System.out.println(conta.getTitular());
+
     }
 }
