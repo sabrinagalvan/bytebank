@@ -1,10 +1,10 @@
 package br.com.bytebank.herdado.modelo;
 
-public class Admisnitrador extends Funcionario implements Autenticavel{
+public class Administrador extends Funcionario implements Autenticavel{
 
     private AutenticacaoUtil autenticador;
 
-    public Admisnitrador() {
+    public Administrador() {
       this.autenticador = new AutenticacaoUtil();
     }
 
